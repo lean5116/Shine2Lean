@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d84a1b-d3ec-4afe-96d0-508c5180f2e0" name="Default Changelist" comment="11">
-      <changelist_data />
+      <changelist_data name="" email="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shine2Lean/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shine2Lean/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shine2Lean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shine2Lean/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shine2Lean" beforeDir="false" afterPath="$PROJECT_DIR$/Shine2Lean" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shine2Lean/.vs/Shine2Lean/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/Shine2Lean/.vs/Shine2Lean/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shine2Lean/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/Shine2Lean/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shine2Lean/obj/Debug/Shine2Lean.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shine2Lean/obj/Debug/Shine2Lean.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +210,7 @@
       <workItem from="1614132843692" duration="5893000" />
       <workItem from="1614650167191" duration="958000" />
       <workItem from="1614910768433" duration="4909000" />
+      <workItem from="1614929176820" duration="123000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1614923280271</created>
@@ -225,7 +232,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -325,18 +334,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1878" height="348" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614651131519" />
-    <state x="641" y="202" key="RiderGenerateDialog" timestamp="1606287846151">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="641" y="202" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606287846151" />
     <state x="462" y="162" key="SettingsEditor" timestamp="1614912722656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="462" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614912722656" />
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614924736443">
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614929271522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614924736443" />
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614929271522" />
     <state x="756" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614923512568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
