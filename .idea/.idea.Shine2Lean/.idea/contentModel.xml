@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\lean\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\lean\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Shine2Lean.1500947600.00" t="ExcludeRecursive" />
+    <e p="E:\巨硬工作空间\Shine2Lean" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Shine2Lean" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BLL" t="Include">
+          <e p="MyLeanBLL" t="Include">
+            <e p="MainQueueTypeBLL.cs" t="Include" />
+            <e p="MyLeanBaseBLL.cs" t="Include" />
+          </e>
+          <e p="ShineBLL" t="Include">
+            <e p="CurrentPatientBLL.cs" t="Include" />
+            <e p="PeopleFlowBLL.cs" t="Include" />
+            <e p="ShineBaseBLL.cs" t="Include" />
+          </e>
+          <e p="TestBLL.cs" t="Include" />
+        </e>
+        <e p="DAL" t="Include">
+          <e p="MyLeanDAL" t="Include">
+            <e p="MainQueueTypeDAL.cs" t="Include" />
+            <e p="MyLeanBaseDAL.cs" t="Include" />
+          </e>
+          <e p="ShineDAL" t="Include">
+            <e p="CurrentPatientDAL.cs" t="Include" />
+            <e p="PeopleFlowDAL.cs" t="Include" />
+            <e p="ShineBaseDAL.cs" t="Include" />
+          </e>
+          <e p="TestDAL.cs" t="Include" />
+        </e>
+        <e p="doctorSchedual.asmx" t="Include" />
+        <e p="doctorSchedual.asmx.cs" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="DocSortModel.cs" t="Include" />
+          <e p="MSSqlColumnModel.cs" t="Include" />
+          <e p="MyLeanEntities" t="Include" />
+          <e p="OraSqlColumnModel.cs" t="Include" />
+          <e p="RespModel.cs" t="Include" />
+          <e p="ShineEntities" t="Include">
+            <e p="PatientInfoEntities" t="Include">
+              <e p="dataItem.cs" t="Include" />
+              <e p="PatientWaitInfo.cs" t="Include" />
+            </e>
+            <e p="PrecordModel.cs" t="Include" />
+            <e p="RespPatientWaitInfo" t="Include">
+              <e p="Body.cs" t="Include" />
+              <e p="BodyItem.cs" t="Include" />
+              <e p="Head.cs" t="Include" />
+              <e p="Resp.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TestModel.cs" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Service References\ShineWeChatInterface" t="Include">
+          <e p="configuration.svcinfo" t="Include" />
+          <e p="configuration91.svcinfo" t="Include" />
+          <e p="Reference.cs" t="Include" />
+          <e p="Reference.svcmap" t="Include" />
+          <e p="Shine2Lean.ShineWeChatInterface.GetPatientWaitInfoResponse.datasource" t="Include" />
+          <e p="Shine2Lean.ShineWeChatInterface.SelfServiceByCheckInResponse.datasource" t="Include" />
+          <e p="WebChatInterface.wsdl" t="Include" />
+        </e>
+        <e p="shine2Lean.asmx" t="Include" />
+        <e p="shine2Lean.asmx.cs" t="Include" />
+        <e p="Shine2Lean.csproj" t="IncludeRecursive" />
+        <e p="SqlHelper.cs" t="Include" />
+        <e p="Utilities" t="Include">
+          <e p="DapperHelper.cs" t="Include" />
+          <e p="DocModel.cs" t="Include" />
+          <e p="JsonHelper.cs" t="Include" />
+          <e p="Log4Helper.cs" t="Include" />
+          <e p="XmlConvertHelper.cs" t="Include" />
+        </e>
+        <e p="Web References" t="Include">
+          <e p="icuMain" t="Include">
+            <e p="bloodGlucoseSigns.xsd" t="Include" />
+            <e p="bloodGlucoseSigns0.xsd" t="Include" />
+            <e p="bloodGlucoseSigns1.xsd" t="Include" />
+            <e p="bloodGlucoseSigns2.xsd" t="Include" />
+            <e p="bloodGlucoseSigns3.xsd" t="Include" />
+            <e p="IcuMainService.wsdl" t="Include" />
+            <e p="Reference.cs" t="Include" />
+            <e p="Reference.map" t="Include" />
+          </e>
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="Shine2Lean.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

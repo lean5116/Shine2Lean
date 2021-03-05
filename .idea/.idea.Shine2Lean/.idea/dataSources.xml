@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="ShineTriage@172.16.17.43" uuid="59d4e3a5-ff1f-4a6f-be27-5d5c7c43db66">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://172.16.17.43\sqlexpress;database=ShineTriage</jdbc-url>
+    </data-source>
+  </component>
+</project>

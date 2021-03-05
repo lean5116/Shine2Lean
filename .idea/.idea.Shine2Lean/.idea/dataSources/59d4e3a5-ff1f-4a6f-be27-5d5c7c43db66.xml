@@ -1,0 +1,2369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ShineTriage@172.16.17.43">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.17">
+    <root id="1">
+      <ServerVersion>12.0.5000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="ShineTriage">
+      <ObjectId>5</ObjectId>
+      <Current>1</Current>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+      <Fingerprint>5.43542/7F867BFB-6904-4A04-9A88-F185ECC7908B@JIAOHAOXITONG\SQLEXPRESS</Fingerprint>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <schema id="7" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2020-08-13.19:32:50.213</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="18" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="20" parent="17" name="call_queue">
+      <ObjectId>245575913</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.907</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-14.22:45:02.057</ModifiedTimestamp>
+    </table>
+    <table id="21" parent="17" name="call_record">
+      <ObjectId>277576027</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.920</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-14.22:45:03.443</ModifiedTimestamp>
+    </table>
+    <table id="22" parent="17" name="db_source">
+      <ObjectId>309576141</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.920</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.233</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="17" name="db_sql">
+      <ObjectId>341576255</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.920</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.153</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="17" name="dict_time_interval">
+      <ObjectId>373576369</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.937</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.937</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="17" name="doctor">
+      <ObjectId>405576483</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.937</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.170</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="17" name="exam_setting">
+      <ObjectId>1269579561</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.280</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.280</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="17" name="operation">
+      <ObjectId>437576597</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.937</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-14.22:45:06.820</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="17" name="pager">
+      <ObjectId>469576711</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.937</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.187</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="17" name="patient_info">
+      <ObjectId>501576825</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-14.22:45:05.450</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="17" name="pbcatcol">
+      <ObjectId>1333579789</ObjectId>
+      <CreatedTimestamp>2019-05-06.18:01:53.667</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-06.18:01:53.670</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="17" name="pbcatedt">
+      <ObjectId>1381579960</ObjectId>
+      <CreatedTimestamp>2019-05-06.18:01:53.910</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-06.18:01:53.917</ModifiedTimestamp>
+    </table>
+    <table id="32" parent="17" name="pbcatfmt">
+      <ObjectId>1349579846</ObjectId>
+      <CreatedTimestamp>2019-05-06.18:01:53.773</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-06.18:01:53.840</ModifiedTimestamp>
+    </table>
+    <table id="33" parent="17" name="pbcattbl">
+      <ObjectId>1317579732</ObjectId>
+      <CreatedTimestamp>2019-05-06.18:01:53.573</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-06.18:01:53.650</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="17" name="pbcatvld">
+      <ObjectId>1365579903</ObjectId>
+      <CreatedTimestamp>2019-05-06.18:01:53.903</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-06.18:01:53.910</ModifiedTimestamp>
+    </table>
+    <table id="35" parent="17" name="queue_type">
+      <ObjectId>533576939</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-06-27.17:45:01.977</ModifiedTimestamp>
+    </table>
+    <table id="36" parent="17" name="reserve_base_timespan">
+      <ObjectId>565577053</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.170</ModifiedTimestamp>
+    </table>
+    <table id="37" parent="17" name="rlt_doctor2queue_type">
+      <ObjectId>597577167</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.967</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.173</ModifiedTimestamp>
+    </table>
+    <table id="38" parent="17" name="rlt_pager2queue_type">
+      <ObjectId>629577281</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.967</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.173</ModifiedTimestamp>
+    </table>
+    <table id="39" parent="17" name="rlt_pager2terminal">
+      <ObjectId>661577395</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.967</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.190</ModifiedTimestamp>
+    </table>
+    <table id="40" parent="17" name="rlt_triage2queue_type">
+      <ObjectId>693577509</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.967</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.190</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="17" name="source">
+      <ObjectId>725577623</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.983</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-14.22:45:03.893</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="17" name="tb_NICU">
+      <ObjectId>1845581613</ObjectId>
+      <CreatedTimestamp>2019-12-25.23:13:51.540</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-25.23:13:51.540</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="17" name="tb_operatingroom">
+      <ObjectId>1877581727</ObjectId>
+      <CreatedTimestamp>2019-12-25.23:14:18.207</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-25.23:14:18.207</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="17" name="terminal">
+      <ObjectId>757577737</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.983</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.200</ModifiedTimestamp>
+    </table>
+    <table id="45" parent="17" name="triage">
+      <ObjectId>789577851</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.983</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.200</ModifiedTimestamp>
+    </table>
+    <view id="46" parent="17" name="Precord">
+      <ObjectId>1541580530</ObjectId>
+      <SourceTextLength>779</SourceTextLength>
+      <CreatedTimestamp>2019-09-05.15:38:49.173</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-02.18:54:52.400</ModifiedTimestamp>
+    </view>
+    <view id="47" parent="17" name="current_patients">
+      <ObjectId>34099162</ObjectId>
+      <SourceTextLength>953</SourceTextLength>
+      <CreatedTimestamp>2020-06-15.22:12:21.720</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-15.23:01:11.913</ModifiedTimestamp>
+    </view>
+    <view id="48" parent="17" name="traige2queue_type">
+      <ObjectId>18099105</ObjectId>
+      <SourceTextLength>652</SourceTextLength>
+      <CreatedTimestamp>2020-06-15.20:00:38.457</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-18.02:34:01.640</ModifiedTimestamp>
+    </view>
+    <view id="49" parent="17" name="v_sstj_hzrc">
+      <ObjectId>338100245</ObjectId>
+      <SourceTextLength>2767</SourceTextLength>
+      <CreatedTimestamp>2020-07-28.00:14:12.960</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-28.00:14:12.960</ModifiedTimestamp>
+    </view>
+    <routine id="50" parent="17" name="enum">
+      <ObjectId>1237579447</ObjectId>
+      <SourceTextLength>4714</SourceTextLength>
+      <CreatedTimestamp>2019-03-20.00:20:39.217</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.217</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <column id="51" parent="20" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="20" name="triage_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="53" parent="20" name="queue_type_id">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="20" name="pager_id">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="55" parent="20" name="doctor_id">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="56" parent="20" name="source_id">
+      <Position>6</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="20" name="register_id">
+      <Position>7</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="20" name="create_time">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="20" name="create_type">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="20" name="checkin_time">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="61" parent="20" name="reserve_time">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="20" name="reserve_end_time">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="63" parent="20" name="last_opr_time">
+      <Position>13</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="20" name="state">
+      <Position>14</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="20" name="state_custom">
+      <Position>15</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="66" parent="20" name="queue_num">
+      <Position>16</Position>
+      <DataType>decimal(25,9)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="20" name="time_interval">
+      <Position>17</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="20" name="return_flag">
+      <Position>18</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="69" parent="20" name="delay_time">
+      <Position>19</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="70" parent="20" name="PK_call_queue">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="71" parent="20" name="IX_FK_doctorqueue">
+      <Position>2</Position>
+      <ColNames>doctor_id</ColNames>
+    </index>
+    <index id="72" parent="20" name="IX_FK_pagercall_queue">
+      <Position>3</Position>
+      <ColNames>pager_id</ColNames>
+    </index>
+    <index id="73" parent="20" name="IX_FK_queue_typecall_queue">
+      <Position>4</Position>
+      <ColNames>queue_type_id</ColNames>
+    </index>
+    <index id="74" parent="20" name="IX_FK_sourcequeue">
+      <Position>5</Position>
+      <ColNames>source_id</ColNames>
+    </index>
+    <index id="75" parent="20" name="IX_FK_triagepatient_queue">
+      <Position>6</Position>
+      <ColNames>triage_id</ColNames>
+    </index>
+    <index id="76" parent="20" name="NonClusteredIndex-reserve_time">
+      <Position>20</Position>
+      <ColNames>reserve_time
+reserve_end_time</ColNames>
+      <IncludeColNames>id
+queue_type_id
+source_id
+create_time</IncludeColNames>
+    </index>
+    <index id="77" parent="20" name="NonClusteredIndex-state">
+      <Position>21</Position>
+      <ColNames>state</ColNames>
+      <IncludeColNames>id
+queue_type_id
+pager_id
+doctor_id
+source_id
+register_id
+create_type
+checkin_time
+reserve_time
+last_opr_time
+queue_num
+time_interval
+return_flag</IncludeColNames>
+    </index>
+    <index id="78" parent="20" name="NonClusteredIndex-state-time">
+      <Position>22</Position>
+      <ColNames>state
+time_interval</ColNames>
+      <IncludeColNames>id
+queue_type_id
+pager_id
+doctor_id
+source_id
+register_id
+checkin_time
+reserve_time
+last_opr_time
+queue_num
+return_flag</IncludeColNames>
+    </index>
+    <key id="79" parent="20" name="PK_call_queue">
+      <ObjectId>261575970</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.920</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.920</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_call_queue</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="80" parent="20" name="FK_triagepatient_queue">
+      <ObjectId>885578193</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.123</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.123</ModifiedTimestamp>
+      <ColNames>triage_id</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>triage</RefTableName>
+      <RefKeyName>PK_triage</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="81" parent="20" name="FK_queue_typecall_queue">
+      <ObjectId>853578079</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.107</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.107</ModifiedTimestamp>
+      <ColNames>queue_type_id</ColNames>
+      <RefTableId>533576939</RefTableId>
+      <RefTableName>queue_type</RefTableName>
+      <RefKeyName>PK_queue_type</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="82" parent="20" name="FK_pagercall_queue">
+      <ObjectId>837578022</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.107</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.107</ModifiedTimestamp>
+      <ColNames>pager_id</ColNames>
+      <RefTableId>469576711</RefTableId>
+      <RefTableName>pager</RefTableName>
+      <RefKeyName>PK_pager</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="83" parent="20" name="FK_doctorqueue">
+      <ObjectId>821577965</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.107</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.107</ModifiedTimestamp>
+      <ColNames>doctor_id</ColNames>
+      <RefTableId>405576483</RefTableId>
+      <RefTableName>doctor</RefTableName>
+      <RefKeyName>PK_doctor</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="84" parent="20" name="FK_sourcequeue">
+      <ObjectId>869578136</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.123</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.123</ModifiedTimestamp>
+      <ColNames>source_id</ColNames>
+      <RefTableId>725577623</RefTableId>
+      <RefTableName>source</RefTableName>
+      <RefKeyName>PK_source</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="85" parent="21" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="21" name="triage_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="87" parent="21" name="queue_type_id">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="21" name="doctor_id">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="89" parent="21" name="pager_id">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="90" parent="21" name="source_id">
+      <Position>6</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="21" name="register_id">
+      <Position>7</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="21" name="create_time">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="21" name="create_type">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="21" name="checkin_time">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="95" parent="21" name="call_time">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="96" parent="21" name="finish_time">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="97" parent="21" name="finish_type">
+      <Position>13</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="21" name="time_interval">
+      <Position>14</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="99" parent="21" name="PK_call_record">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="100" parent="21" name="IX_FK_doctorrecord">
+      <Position>2</Position>
+      <ColNames>doctor_id</ColNames>
+    </index>
+    <index id="101" parent="21" name="IX_FK_pagerpatient_record">
+      <Position>3</Position>
+      <ColNames>pager_id</ColNames>
+    </index>
+    <index id="102" parent="21" name="IX_FK_queue_typerecord">
+      <Position>4</Position>
+      <ColNames>queue_type_id</ColNames>
+    </index>
+    <index id="103" parent="21" name="IX_FK_sourcerecord">
+      <Position>5</Position>
+      <ColNames>source_id</ColNames>
+    </index>
+    <index id="104" parent="21" name="IX_FK_triagepatient_record">
+      <Position>6</Position>
+      <ColNames>triage_id</ColNames>
+    </index>
+    <index id="105" parent="21" name="NonClusteredIndex-create_time">
+      <Position>7</Position>
+      <ColNames>create_time</ColNames>
+      <IncludeColNames>register_id
+triage_id
+queue_type_id
+doctor_id
+pager_id
+source_id
+create_type
+checkin_time
+call_time
+finish_time
+finish_type
+time_interval</IncludeColNames>
+    </index>
+    <index id="106" parent="21" name="NonClusteredIndex-checkin_time">
+      <Position>8</Position>
+      <ColNames>checkin_time</ColNames>
+      <IncludeColNames>register_id
+triage_id
+queue_type_id
+doctor_id
+pager_id
+source_id
+create_type
+create_time
+call_time
+finish_time
+finish_type
+time_interval</IncludeColNames>
+    </index>
+    <index id="107" parent="21" name="NonClusteredIndex-call_time">
+      <Position>9</Position>
+      <ColNames>call_time</ColNames>
+      <IncludeColNames>register_id
+triage_id
+queue_type_id
+doctor_id
+pager_id
+source_id
+create_type
+create_time
+checkin_time
+finish_time
+finish_type
+time_interval</IncludeColNames>
+    </index>
+    <index id="108" parent="21" name="NonClusteredIndex-finish_time">
+      <Position>10</Position>
+      <ColNames>finish_time</ColNames>
+      <IncludeColNames>register_id
+triage_id
+queue_type_id
+doctor_id
+pager_id
+source_id
+create_type
+create_time
+checkin_time
+call_time
+finish_type
+time_interval</IncludeColNames>
+    </index>
+    <index id="109" parent="21" name="NonClusteredIndex-finish_type">
+      <Position>15</Position>
+      <ColNames>finish_type</ColNames>
+      <IncludeColNames>queue_type_id
+source_id
+finish_time</IncludeColNames>
+    </index>
+    <index id="110" parent="21" name="NonClusteredIndex-pager_type">
+      <Position>16</Position>
+      <ColNames>pager_id
+finish_type</ColNames>
+      <IncludeColNames>id
+queue_type_id
+source_id
+register_id
+create_time
+create_type
+finish_time</IncludeColNames>
+    </index>
+    <index id="111" parent="21" name="NonClusteredIndex-queue_type_id">
+      <Position>17</Position>
+      <ColNames>queue_type_id</ColNames>
+      <IncludeColNames>id
+triage_id
+doctor_id
+pager_id
+source_id
+register_id
+create_time
+create_type
+checkin_time
+call_time
+finish_time
+finish_type
+time_interval</IncludeColNames>
+    </index>
+    <key id="112" parent="21" name="PK_call_record">
+      <ObjectId>293576084</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.920</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.920</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_call_record</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="113" parent="21" name="FK_triagepatient_record">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.140</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.140</ModifiedTimestamp>
+      <ColNames>triage_id</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>triage</RefTableName>
+      <RefKeyName>PK_triage</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="114" parent="21" name="FK_queue_typerecord">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.140</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.140</ModifiedTimestamp>
+      <ColNames>queue_type_id</ColNames>
+      <RefTableId>533576939</RefTableId>
+      <RefTableName>queue_type</RefTableName>
+      <RefKeyName>PK_queue_type</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="115" parent="21" name="FK_doctorrecord">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.123</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.123</ModifiedTimestamp>
+      <ColNames>doctor_id</ColNames>
+      <RefTableId>405576483</RefTableId>
+      <RefTableName>doctor</RefTableName>
+      <RefKeyName>PK_doctor</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="116" parent="21" name="FK_pagerpatient_record">
+      <ObjectId>917578307</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.140</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.140</ModifiedTimestamp>
+      <ColNames>pager_id</ColNames>
+      <RefTableId>469576711</RefTableId>
+      <RefTableName>pager</RefTableName>
+      <RefKeyName>PK_pager</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="117" parent="21" name="FK_sourcerecord">
+      <ObjectId>949578421</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.140</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.140</ModifiedTimestamp>
+      <ColNames>source_id</ColNames>
+      <RefTableId>725577623</RefTableId>
+      <RefTableName>source</RefTableName>
+      <RefKeyName>PK_source</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="118" parent="22" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="22" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="22" name="connectionstring">
+      <Position>3</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="22" name="description">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="122" parent="22" name="db_type">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="123" parent="22" name="PK_db_source">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="124" parent="22" name="PK_db_source">
+      <ObjectId>325576198</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.920</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.920</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_db_source</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="125" parent="23" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="126" parent="23" name="db_source_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="23" name="name">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="128" parent="23" name="type">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="129" parent="23" name="sqlstring">
+      <Position>5</Position>
+      <DataType>varchar(1000 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="23" name="interval">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="131" parent="23" name="last_time">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="132" parent="23" name="PK_db_sql">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="133" parent="23" name="IX_FK_db_sql">
+      <Position>2</Position>
+      <ColNames>db_source_id</ColNames>
+    </index>
+    <key id="134" parent="23" name="PK_db_sql">
+      <ObjectId>357576312</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.920</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.920</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_db_sql</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="135" parent="23" name="FK_db_sql">
+      <ObjectId>981578535</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.153</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.153</ModifiedTimestamp>
+      <ColNames>db_source_id</ColNames>
+      <RefTableId>309576141</RefTableId>
+      <RefTableName>db_source</RefTableName>
+      <RefKeyName>PK_db_source</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="136" parent="24" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="137" parent="24" name="time_interval">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="24" name="start_time">
+      <Position>3</Position>
+      <DataType>time|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="24" name="end_time">
+      <Position>4</Position>
+      <DataType>time|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="24" name="enable">
+      <Position>5</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="141" parent="24" name="PK_dict_time_interval">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="142" parent="24" name="PK_dict_time_interval">
+      <ObjectId>389576426</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.937</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.937</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_dict_time_interval</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="143" parent="25" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="144" parent="25" name="login_id">
+      <Position>2</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="25" name="db_source_id">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="146" parent="25" name="name">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="147" parent="25" name="department">
+      <Position>5</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="148" parent="25" name="title">
+      <Position>6</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="149" parent="25" name="description">
+      <Position>7</Position>
+      <DataType>varchar(8000 char)|0s</DataType>
+    </column>
+    <column id="150" parent="25" name="call_rule">
+      <Position>8</Position>
+      <DataType>varchar(1000 char)|0s</DataType>
+    </column>
+    <column id="151" parent="25" name="is_deleted">
+      <Position>9</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="152" parent="25" name="PK_doctor">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="153" parent="25" name="PK_doctor">
+      <ObjectId>421576540</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.937</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.937</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_doctor</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="154" parent="26" name="queue_type_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="155" parent="26" name="rank">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="156" parent="26" name="is_canqian">
+      <Position>3</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="157" parent="26" name="avg_time">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="158" parent="26" name="extra_time">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="159" parent="26" name="is_automatic">
+      <Position>6</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="160" parent="26" name="PK_exam_setting">
+      <Position>1</Position>
+      <ColNames>queue_type_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="161" parent="26" name="PK_exam_setting">
+      <ObjectId>1285579618</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.280</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.280</ModifiedTimestamp>
+      <ColNames>queue_type_id</ColNames>
+      <UnderlyingIndexName>PK_exam_setting</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="162" parent="27" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="163" parent="27" name="source_id">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="164" parent="27" name="opr_type">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="165" parent="27" name="opr_time">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="166" parent="27" name="opr_detail">
+      <Position>8</Position>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <index id="167" parent="27" name="PK_operation">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="168" parent="27" name="IX_FK_sourceoperation">
+      <Position>2</Position>
+      <ColNames>source_id
+opr_time</ColNames>
+      <IncludeColNames>id
+opr_type
+opr_detail</IncludeColNames>
+    </index>
+    <key id="169" parent="27" name="PK_operation">
+      <ObjectId>453576654</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.937</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.937</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_operation</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="170" parent="27" name="FK_sourceoperation">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.153</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.153</ModifiedTimestamp>
+      <ColNames>source_id</ColNames>
+      <RefTableId>725577623</RefTableId>
+      <RefTableName>source</RefTableName>
+      <RefKeyName>PK_source</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="171" parent="28" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="172" parent="28" name="doctor_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="173" parent="28" name="login_time">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="174" parent="28" name="triage_id">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="175" parent="28" name="name">
+      <Position>5</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="176" parent="28" name="display_name">
+      <Position>6</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="177" parent="28" name="ip">
+      <Position>7</Position>
+      <DataType>varchar(15 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="178" parent="28" name="type">
+      <Position>8</Position>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="179" parent="28" name="state">
+      <Position>9</Position>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="180" parent="28" name="description">
+      <Position>10</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="181" parent="28" name="call_rule">
+      <Position>11</Position>
+      <DataType>varchar(1000 char)|0s</DataType>
+    </column>
+    <column id="182" parent="28" name="is_deleted">
+      <Position>12</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="183" parent="28" name="PK_pager">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="184" parent="28" name="IX_FK_pagerdoctor">
+      <Position>2</Position>
+      <ColNames>doctor_id</ColNames>
+    </index>
+    <index id="185" parent="28" name="IX_FK_triagepager">
+      <Position>3</Position>
+      <ColNames>triage_id</ColNames>
+    </index>
+    <key id="186" parent="28" name="PK_pager">
+      <ObjectId>485576768</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.937</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.937</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_pager</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="187" parent="28" name="FK_pagerdoctor">
+      <ObjectId>1013578649</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.153</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.153</ModifiedTimestamp>
+      <ColNames>doctor_id</ColNames>
+      <RefTableId>405576483</RefTableId>
+      <RefTableName>doctor</RefTableName>
+      <RefKeyName>PK_doctor</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="188" parent="28" name="FK_triagepager">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.153</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.153</ModifiedTimestamp>
+      <ColNames>triage_id</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>triage</RefTableName>
+      <RefKeyName>PK_triage</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="189" parent="29" name="id">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="190" parent="29" name="id_card">
+      <Position>2</Position>
+      <DataType>varchar(18 char)|0s</DataType>
+    </column>
+    <column id="191" parent="29" name="hospital_card">
+      <Position>3</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="192" parent="29" name="social_security_card">
+      <Position>4</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="193" parent="29" name="patient_name">
+      <Position>5</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <index id="194" parent="29" name="PK_patient_info">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="195" parent="29" name="NonClusteredIndex-id_card">
+      <Position>6</Position>
+      <ColNames>id_card</ColNames>
+      <IncludeColNames>id
+hospital_card
+social_security_card
+patient_name</IncludeColNames>
+    </index>
+    <index id="196" parent="29" name="NonClusteredIndex-hospital_card">
+      <Position>7</Position>
+      <ColNames>hospital_card</ColNames>
+      <IncludeColNames>id
+id_card
+social_security_card
+patient_name</IncludeColNames>
+    </index>
+    <index id="197" parent="29" name="NonClusteredIndex-social_security_card">
+      <Position>8</Position>
+      <ColNames>social_security_card</ColNames>
+      <IncludeColNames>id
+id_card
+hospital_card
+patient_name</IncludeColNames>
+    </index>
+    <index id="198" parent="29" name="NonClusteredIndex-AllCard">
+      <Position>9</Position>
+      <ColNames>id_card
+hospital_card
+social_security_card</ColNames>
+      <IncludeColNames>id
+patient_name</IncludeColNames>
+    </index>
+    <key id="199" parent="29" name="PK_patient_info">
+      <ObjectId>517576882</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.950</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_patient_info</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="200" parent="30" name="pbc_tnam">
+      <Position>1</Position>
+      <DataType>char(30 char)|0s</DataType>
+    </column>
+    <column id="201" parent="30" name="pbc_tid">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="202" parent="30" name="pbc_ownr">
+      <Position>3</Position>
+      <DataType>char(30 char)|0s</DataType>
+    </column>
+    <column id="203" parent="30" name="pbc_cnam">
+      <Position>4</Position>
+      <DataType>char(30 char)|0s</DataType>
+    </column>
+    <column id="204" parent="30" name="pbc_cid">
+      <Position>5</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="205" parent="30" name="pbc_labl">
+      <Position>6</Position>
+      <DataType>varchar(254 char)|0s</DataType>
+    </column>
+    <column id="206" parent="30" name="pbc_lpos">
+      <Position>7</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="207" parent="30" name="pbc_hdr">
+      <Position>8</Position>
+      <DataType>varchar(254 char)|0s</DataType>
+    </column>
+    <column id="208" parent="30" name="pbc_hpos">
+      <Position>9</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="209" parent="30" name="pbc_jtfy">
+      <Position>10</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="210" parent="30" name="pbc_mask">
+      <Position>11</Position>
+      <DataType>varchar(31 char)|0s</DataType>
+    </column>
+    <column id="211" parent="30" name="pbc_case">
+      <Position>12</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="212" parent="30" name="pbc_hght">
+      <Position>13</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="213" parent="30" name="pbc_wdth">
+      <Position>14</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="214" parent="30" name="pbc_ptrn">
+      <Position>15</Position>
+      <DataType>varchar(31 char)|0s</DataType>
+    </column>
+    <column id="215" parent="30" name="pbc_bmap">
+      <Position>16</Position>
+      <DataType>char(1 char)|0s</DataType>
+    </column>
+    <column id="216" parent="30" name="pbc_init">
+      <Position>17</Position>
+      <DataType>varchar(254 char)|0s</DataType>
+    </column>
+    <column id="217" parent="30" name="pbc_cmnt">
+      <Position>18</Position>
+      <DataType>varchar(254 char)|0s</DataType>
+    </column>
+    <column id="218" parent="30" name="pbc_edit">
+      <Position>19</Position>
+      <DataType>varchar(31 char)|0s</DataType>
+    </column>
+    <column id="219" parent="30" name="pbc_tag">
+      <Position>20</Position>
+      <DataType>varchar(254 char)|0s</DataType>
+    </column>
+    <index id="220" parent="30" name="pbcatcol_idx">
+      <Position>2</Position>
+      <ColNames>pbc_tnam
+pbc_ownr
+pbc_cnam</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <column id="221" parent="31" name="pbe_name">
+      <Position>1</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="222" parent="31" name="pbe_edit">
+      <Position>2</Position>
+      <DataType>varchar(254 char)|0s</DataType>
+    </column>
+    <column id="223" parent="31" name="pbe_type">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="224" parent="31" name="pbe_cntr">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="225" parent="31" name="pbe_seqn">
+      <Position>5</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="226" parent="31" name="pbe_flag">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="227" parent="31" name="pbe_work">
+      <Position>7</Position>
+      <DataType>char(32 char)|0s</DataType>
+    </column>
+    <index id="228" parent="31" name="pbcatedt_idx">
+      <Position>1</Position>
+      <ColNames>pbe_name
+pbe_seqn</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <column id="229" parent="32" name="pbf_name">
+      <Position>1</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="230" parent="32" name="pbf_frmt">
+      <Position>2</Position>
+      <DataType>varchar(254 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="231" parent="32" name="pbf_type">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="232" parent="32" name="pbf_cntr">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="233" parent="32" name="pbcatfmt_idx">
+      <Position>1</Position>
+      <ColNames>pbf_name</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <column id="234" parent="33" name="pbt_tnam">
+      <Position>1</Position>
+      <DataType>char(30 char)|0s</DataType>
+    </column>
+    <column id="235" parent="33" name="pbt_tid">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="236" parent="33" name="pbt_ownr">
+      <Position>3</Position>
+      <DataType>char(30 char)|0s</DataType>
+    </column>
+    <column id="237" parent="33" name="pbd_fhgt">
+      <Position>4</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="238" parent="33" name="pbd_fwgt">
+      <Position>5</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="239" parent="33" name="pbd_fitl">
+      <Position>6</Position>
+      <DataType>char(1 char)|0s</DataType>
+    </column>
+    <column id="240" parent="33" name="pbd_funl">
+      <Position>7</Position>
+      <DataType>char(1 char)|0s</DataType>
+    </column>
+    <column id="241" parent="33" name="pbd_fchr">
+      <Position>8</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="242" parent="33" name="pbd_fptc">
+      <Position>9</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="243" parent="33" name="pbd_ffce">
+      <Position>10</Position>
+      <DataType>char(32 char)|0s</DataType>
+    </column>
+    <column id="244" parent="33" name="pbh_fhgt">
+      <Position>11</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="245" parent="33" name="pbh_fwgt">
+      <Position>12</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="246" parent="33" name="pbh_fitl">
+      <Position>13</Position>
+      <DataType>char(1 char)|0s</DataType>
+    </column>
+    <column id="247" parent="33" name="pbh_funl">
+      <Position>14</Position>
+      <DataType>char(1 char)|0s</DataType>
+    </column>
+    <column id="248" parent="33" name="pbh_fchr">
+      <Position>15</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="249" parent="33" name="pbh_fptc">
+      <Position>16</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="250" parent="33" name="pbh_ffce">
+      <Position>17</Position>
+      <DataType>char(32 char)|0s</DataType>
+    </column>
+    <column id="251" parent="33" name="pbl_fhgt">
+      <Position>18</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="252" parent="33" name="pbl_fwgt">
+      <Position>19</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="253" parent="33" name="pbl_fitl">
+      <Position>20</Position>
+      <DataType>char(1 char)|0s</DataType>
+    </column>
+    <column id="254" parent="33" name="pbl_funl">
+      <Position>21</Position>
+      <DataType>char(1 char)|0s</DataType>
+    </column>
+    <column id="255" parent="33" name="pbl_fchr">
+      <Position>22</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="256" parent="33" name="pbl_fptc">
+      <Position>23</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="257" parent="33" name="pbl_ffce">
+      <Position>24</Position>
+      <DataType>char(32 char)|0s</DataType>
+    </column>
+    <column id="258" parent="33" name="pbt_cmnt">
+      <Position>25</Position>
+      <DataType>varchar(254 char)|0s</DataType>
+    </column>
+    <index id="259" parent="33" name="pbcattbl_idx">
+      <Position>2</Position>
+      <ColNames>pbt_tnam
+pbt_ownr</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <column id="260" parent="34" name="pbv_name">
+      <Position>1</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="261" parent="34" name="pbv_vald">
+      <Position>2</Position>
+      <DataType>varchar(254 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="262" parent="34" name="pbv_type">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="263" parent="34" name="pbv_cntr">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="264" parent="34" name="pbv_msg">
+      <Position>5</Position>
+      <DataType>varchar(254 char)|0s</DataType>
+    </column>
+    <index id="265" parent="34" name="pbcatvld_idx">
+      <Position>1</Position>
+      <ColNames>pbv_name</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <column id="266" parent="35" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="267" parent="35" name="db_source_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="268" parent="35" name="source_id">
+      <Position>3</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="269" parent="35" name="avg_minute">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="270" parent="35" name="name">
+      <Position>5</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="271" parent="35" name="display_name">
+      <Position>6</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="272" parent="35" name="department">
+      <Position>7</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="273" parent="35" name="queue_num_max">
+      <Position>8</Position>
+      <DataType>decimal(25,9)|0s</DataType>
+    </column>
+    <column id="274" parent="35" name="queue_num_call_max">
+      <Position>9</Position>
+      <DataType>decimal(25,9)|0s</DataType>
+    </column>
+    <column id="275" parent="35" name="is_deleted">
+      <Position>10</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="276" parent="35" name="queue_num_triage_max">
+      <Position>11</Position>
+      <DataType>decimal(25,9)|0s</DataType>
+    </column>
+    <index id="277" parent="35" name="PK_queue_type">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="278" parent="35" name="PK_queue_type">
+      <ObjectId>549576996</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.950</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_queue_type</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="279" parent="36" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="280" parent="36" name="queue_type_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="281" parent="36" name="start_time">
+      <Position>3</Position>
+      <DataType>time|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="282" parent="36" name="end_time">
+      <Position>4</Position>
+      <DataType>time|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="283" parent="36" name="dayofweek">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="284" parent="36" name="limit_num">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="285" parent="36" name="PK_reserve_base_timespan">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="286" parent="36" name="IX_FK_queue_typereserve_base_timespan">
+      <Position>2</Position>
+      <ColNames>queue_type_id</ColNames>
+    </index>
+    <key id="287" parent="36" name="PK_reserve_base_timespan">
+      <ObjectId>581577110</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.950</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_reserve_base_timespan</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="288" parent="36" name="FK_queue_typereserve_base_timespan">
+      <ObjectId>1045578763</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.170</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.170</ModifiedTimestamp>
+      <ColNames>queue_type_id</ColNames>
+      <RefTableId>533576939</RefTableId>
+      <RefTableName>queue_type</RefTableName>
+      <RefKeyName>PK_queue_type</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="289" parent="37" name="doctor_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="290" parent="37" name="queue_type_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="291" parent="37" name="time_interval">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="292" parent="37" name="is_custom">
+      <Position>4</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="293" parent="37" name="PK_rlt_doctor2queue_type">
+      <Position>1</Position>
+      <ColNames>doctor_id
+queue_type_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="294" parent="37" name="IX_FK_queue_typerlt_doctor2queue_type">
+      <Position>2</Position>
+      <ColNames>queue_type_id</ColNames>
+    </index>
+    <key id="295" parent="37" name="PK_rlt_doctor2queue_type">
+      <ObjectId>613577224</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.967</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.967</ModifiedTimestamp>
+      <ColNames>doctor_id
+queue_type_id</ColNames>
+      <UnderlyingIndexName>PK_rlt_doctor2queue_type</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="296" parent="37" name="FK_doctorrlt_doctor2queue_type">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.170</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.170</ModifiedTimestamp>
+      <ColNames>doctor_id</ColNames>
+      <RefTableId>405576483</RefTableId>
+      <RefTableName>doctor</RefTableName>
+      <RefKeyName>PK_doctor</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="297" parent="37" name="FK_queue_typerlt_doctor2queue_type">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.170</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.170</ModifiedTimestamp>
+      <ColNames>queue_type_id</ColNames>
+      <RefTableId>533576939</RefTableId>
+      <RefTableName>queue_type</RefTableName>
+      <RefKeyName>PK_queue_type</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="298" parent="38" name="pager_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="299" parent="38" name="queue_type_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="300" parent="38" name="time_interval">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="301" parent="38" name="is_custom">
+      <Position>4</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="302" parent="38" name="PK_rlt_pager2queue_type">
+      <Position>1</Position>
+      <ColNames>pager_id
+queue_type_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="303" parent="38" name="IX_FK_rlt_pager2queue_type1">
+      <Position>2</Position>
+      <ColNames>queue_type_id</ColNames>
+    </index>
+    <key id="304" parent="38" name="PK_rlt_pager2queue_type">
+      <ObjectId>645577338</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.967</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.967</ModifiedTimestamp>
+      <ColNames>pager_id
+queue_type_id</ColNames>
+      <UnderlyingIndexName>PK_rlt_pager2queue_type</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="305" parent="38" name="FK_rlt_pager2queue_type">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.170</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.170</ModifiedTimestamp>
+      <ColNames>pager_id</ColNames>
+      <RefTableId>469576711</RefTableId>
+      <RefTableName>pager</RefTableName>
+      <RefKeyName>PK_pager</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="306" parent="38" name="FK_rlt_pager2queue_type1">
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.170</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.170</ModifiedTimestamp>
+      <ColNames>queue_type_id</ColNames>
+      <RefTableId>533576939</RefTableId>
+      <RefTableName>queue_type</RefTableName>
+      <RefKeyName>PK_queue_type</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="307" parent="39" name="pager_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="308" parent="39" name="terminal_mac">
+      <Position>2</Position>
+      <DataType>varchar(17 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="309" parent="39" name="PK_rlt_pager2terminal">
+      <Position>1</Position>
+      <ColNames>pager_id
+terminal_mac</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="310" parent="39" name="IX_FK_rlt_pager2terminal_terminal">
+      <Position>2</Position>
+      <ColNames>terminal_mac</ColNames>
+    </index>
+    <key id="311" parent="39" name="PK_rlt_pager2terminal">
+      <ObjectId>677577452</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.967</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.967</ModifiedTimestamp>
+      <ColNames>pager_id
+terminal_mac</ColNames>
+      <UnderlyingIndexName>PK_rlt_pager2terminal</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="312" parent="39" name="FK_rlt_pager2terminal_pager">
+      <ObjectId>1125579048</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.187</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.187</ModifiedTimestamp>
+      <ColNames>pager_id</ColNames>
+      <RefTableId>469576711</RefTableId>
+      <RefTableName>pager</RefTableName>
+      <RefKeyName>PK_pager</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="313" parent="39" name="FK_rlt_pager2terminal_terminal">
+      <ObjectId>1141579105</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.187</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.187</ModifiedTimestamp>
+      <ColNames>terminal_mac</ColNames>
+      <RefTableId>757577737</RefTableId>
+      <RefTableName>terminal</RefTableName>
+      <RefKeyName>PK_terminal</RefKeyName>
+      <RefColNames>mac</RefColNames>
+    </foreign-key>
+    <column id="314" parent="40" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="315" parent="40" name="triage_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="316" parent="40" name="queue_type_id">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="317" parent="40" name="time_interval">
+      <Position>4</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="318" parent="40" name="is_reorder">
+      <Position>5</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="319" parent="40" name="is_checkin">
+      <Position>6</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="320" parent="40" name="is_pretriage">
+      <Position>7</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="321" parent="40" name="is_reserve">
+      <Position>8</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="322" parent="40" name="pass_first_flag">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="323" parent="40" name="pass_flag_step">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="324" parent="40" name="pass_max">
+      <Position>11</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="325" parent="40" name="reserve_numlist">
+      <Position>12</Position>
+      <DataType>varchar(1000 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="326" parent="40" name="display_name">
+      <Position>13</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="327" parent="40" name="PK_rlt_triage2queue_type">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="328" parent="40" name="IX_FK_queue_typerlt_triage2queue_type">
+      <Position>2</Position>
+      <ColNames>queue_type_id</ColNames>
+    </index>
+    <index id="329" parent="40" name="IX_FK_triagerlt_triage2queue_type">
+      <Position>3</Position>
+      <ColNames>triage_id</ColNames>
+    </index>
+    <key id="330" parent="40" name="PK_rlt_triage2queue_type">
+      <ObjectId>709577566</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.967</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.967</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_rlt_triage2queue_type</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="331" parent="40" name="FK_triagerlt_triage2queue_type">
+      <ObjectId>1173579219</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.187</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.187</ModifiedTimestamp>
+      <ColNames>triage_id</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>triage</RefTableName>
+      <RefKeyName>PK_triage</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="332" parent="40" name="FK_queue_typerlt_triage2queue_type">
+      <ObjectId>1157579162</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.187</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.187</ModifiedTimestamp>
+      <ColNames>queue_type_id</ColNames>
+      <RefTableId>533576939</RefTableId>
+      <RefTableName>queue_type</RefTableName>
+      <RefKeyName>PK_queue_type</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="333" parent="41" name="id">
+      <Position>1</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="334" parent="41" name="patient_id">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="335" parent="41" name="patient_name">
+      <Position>3</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="336" parent="41" name="login_id">
+      <Position>4</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="337" parent="41" name="content">
+      <Position>5</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="338" parent="41" name="register_id">
+      <Position>6</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="339" parent="41" name="queue_num">
+      <Position>7</Position>
+      <DataType>decimal(25,9)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="340" parent="41" name="queue_type_id">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="341" parent="41" name="sub_queue_order">
+      <Position>9</Position>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="342" parent="41" name="sub_queue_type">
+      <Position>10</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="343" parent="41" name="reserve_time">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="344" parent="41" name="reserve_end_time">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="345" parent="41" name="time_interval">
+      <Position>13</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="346" parent="41" name="create_time">
+      <Position>14</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="347" parent="41" name="PK_source">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="348" parent="41" name="IX_FK_patient_infosource">
+      <Position>2</Position>
+      <ColNames>patient_id</ColNames>
+    </index>
+    <index id="349" parent="41" name="IX_FK_queue_typesource">
+      <Position>3</Position>
+      <ColNames>queue_type_id</ColNames>
+    </index>
+    <index id="350" parent="41" name="NonClusteredIndex-reserve_time">
+      <Position>8</Position>
+      <ColNames>reserve_time</ColNames>
+      <IncludeColNames>register_id
+id
+patient_id
+patient_name
+login_id
+content
+queue_num
+queue_type_id
+reserve_end_time
+create_time
+time_interval</IncludeColNames>
+    </index>
+    <key id="351" parent="41" name="PK_source">
+      <ObjectId>741577680</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.983</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.983</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_source</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="352" parent="41" name="FK_patient_infosource">
+      <ObjectId>1189579276</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.200</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.200</ModifiedTimestamp>
+      <ColNames>patient_id</ColNames>
+      <RefTableId>501576825</RefTableId>
+      <RefTableName>patient_info</RefTableName>
+      <RefKeyName>PK_patient_info</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="353" parent="41" name="FK_queue_typesource">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.200</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.200</ModifiedTimestamp>
+      <ColNames>queue_type_id</ColNames>
+      <RefTableId>533576939</RefTableId>
+      <RefTableName>queue_type</RefTableName>
+      <RefKeyName>PK_queue_type</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="354" parent="42" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="355" parent="42" name="bed_num">
+      <Position>2</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="356" parent="42" name="patient_name">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="357" parent="42" name="doctor_name">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="358" parent="42" name="ni_gou_wu_zi">
+      <Position>5</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="359" parent="42" name="bed_move">
+      <Position>6</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="360" parent="42" name="note">
+      <Position>7</Position>
+      <DataType>varchar(5000 char)|0s</DataType>
+    </column>
+    <index id="361" parent="42" name="PK_tb_NICU">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="362" parent="42" name="PK_tb_NICU">
+      <ObjectId>1861581670</ObjectId>
+      <CreatedTimestamp>2019-12-25.23:13:51.547</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-25.23:13:51.547</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_tb_NICU</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="363" parent="43" name="Id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="364" parent="43" name="patient_id">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="365" parent="43" name="patient_name">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="366" parent="43" name="hospital_num">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="367" parent="43" name="oprate_name">
+      <Position>5</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="368" parent="43" name="room_name">
+      <Position>6</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="369" parent="43" name="room_state">
+      <Position>7</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="370" parent="43" name="bing_qu">
+      <Position>8</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="371" parent="43" name="bed_region">
+      <Position>9</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="372" parent="43" name="over_time">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="373" parent="44" name="mac">
+      <Position>1</Position>
+      <DataType>varchar(17 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="374" parent="44" name="triage_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="375" parent="44" name="name">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="376" parent="44" name="display_name">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="377" parent="44" name="PK_terminal">
+      <Position>1</Position>
+      <ColNames>mac</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="378" parent="44" name="IX_FK_terminal">
+      <Position>2</Position>
+      <ColNames>triage_id</ColNames>
+    </index>
+    <key id="379" parent="44" name="PK_terminal">
+      <ObjectId>773577794</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.983</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.983</ModifiedTimestamp>
+      <ColNames>mac</ColNames>
+      <UnderlyingIndexName>PK_terminal</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="380" parent="44" name="FK_terminal">
+      <ObjectId>1221579390</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:39.200</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:39.200</ModifiedTimestamp>
+      <ColNames>triage_id</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>triage</RefTableName>
+      <RefKeyName>PK_triage</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="381" parent="45" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="382" parent="45" name="triage_type">
+      <Position>2</Position>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="383" parent="45" name="pager_type">
+      <Position>3</Position>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="384" parent="45" name="call_buffer">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="385" parent="45" name="name">
+      <Position>5</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="386" parent="45" name="ip">
+      <Position>6</Position>
+      <DataType>varchar(15 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="387" parent="45" name="description">
+      <Position>7</Position>
+      <DataType>varchar(8000 char)|0s</DataType>
+    </column>
+    <column id="388" parent="45" name="create_time">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="389" parent="45" name="reorder_type">
+      <Position>9</Position>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="390" parent="45" name="return_flag_step">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="391" parent="45" name="triage_pwd">
+      <Position>11</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="392" parent="45" name="is_deleted">
+      <Position>12</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="393" parent="45" name="PK_triage">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="394" parent="45" name="PK_triage">
+      <ObjectId>805577908</ObjectId>
+      <CreatedTimestamp>2019-03-20.00:20:38.983</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-20.00:20:38.983</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_triage</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="395" parent="46" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="396" parent="46" name="source_id">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="397" parent="46" name="name">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="398" parent="46" name="patient_name">
+      <Position>4</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="399" parent="46" name="call_time">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="400" parent="46" name="register_id">
+      <Position>6</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="401" parent="46" name="login_id">
+      <Position>7</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="402" parent="46" name="patient_id">
+      <Position>8</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="403" parent="46" name="finish_type">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="404" parent="46" name="triage_id">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="405" parent="47" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="406" parent="47" name="source_id">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="407" parent="47" name="call_time">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="408" parent="47" name="register_id">
+      <Position>4</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="409" parent="47" name="finish_type">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="410" parent="47" name="finish_time">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="411" parent="47" name="patient_id">
+      <Position>7</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="412" parent="47" name="patient_name">
+      <Position>8</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="413" parent="47" name="traige_id">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="414" parent="47" name="traige_ip">
+      <Position>10</Position>
+      <DataType>varchar(15 char)|0s</DataType>
+    </column>
+    <column id="415" parent="47" name="traige_name">
+      <Position>11</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="416" parent="47" name="queue_type_id">
+      <Position>12</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="417" parent="47" name="queue_type_name">
+      <Position>13</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="418" parent="47" name="queue_type_source_id">
+      <Position>14</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="419" parent="47" name="login_id">
+      <Position>15</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="420" parent="48" name="traige_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="421" parent="48" name="traige_ip">
+      <Position>2</Position>
+      <DataType>varchar(15 char)|0s</DataType>
+    </column>
+    <column id="422" parent="48" name="traige_name">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="423" parent="48" name="queue_type_id">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="424" parent="48" name="queue_type_name">
+      <Position>5</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="425" parent="48" name="queue_type_source_id">
+      <Position>6</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="426" parent="48" name="login_id">
+      <Position>7</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="427" parent="49" name="1号楼1楼候诊区/心胸外科、普外科、普外（甲乳）、肛肠外科、神经外科、骨科、骨科（关节、脊柱、创伤）、手足外科、烧伤外科">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="428" parent="49" name="1号楼2楼候诊区/康复医学科、疼痛科、中医科、老年病科">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="429" parent="49" name="1号楼3楼候诊区/妇科、产科">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="430" parent="49" name="3号楼1楼候诊区/肝病门诊、内科门诊">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="431" parent="49" name="3号楼2楼候诊区/皮肤科、泌尿科">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="432" parent="49" name="3号楼3楼候诊区/心血管内科、呼吸内科、戒烟、消化内科、血液肿瘤科、内分泌科、风湿免疫科、神经内科、肾内科、全科医疗科、精神卫生门诊、营养咨询门诊、放射科门诊">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="433" parent="49" name="3号楼4楼候诊区/儿科、耳鼻喉科">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="434" parent="49" name="3号楼5楼候诊区/口腔科">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <argument id="435" parent="50">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>varchar(500 char)|0s</DataType>
+    </argument>
+    <argument id="436" parent="50" name="@type">
+      <Position>1</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </argument>
+    <argument id="437" parent="50" name="@value">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
