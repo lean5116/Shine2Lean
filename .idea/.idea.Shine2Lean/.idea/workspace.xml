@@ -63,6 +63,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Shine2Lean" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/lean5116/Shine2Lean" />
+      </set>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Shine2Lean/BLL/TestBLL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shine2Lean/BLL/ShineBLL/ShineBaseBLL.cs" root0="FORCE_HIGHLIGHTING" />
@@ -250,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="553" y="178" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1614138469062" />
-    <state x="93" y="93" width="1733" height="853" key="DiffContextDialog" timestamp="1614923745665">
+    <state x="93" y="93" width="1733" height="853" key="DiffContextDialog" timestamp="1614929579362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="93" y="93" width="1733" height="853" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614923745665" />
+    <state x="93" y="93" width="1733" height="853" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614929579362" />
     <state width="1878" height="348" key="GridCell.Tab.0.bottom" timestamp="1614651131518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -338,10 +345,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="462" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614912722656" />
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614929271522">
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614929583545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614929271522" />
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614929583545" />
     <state x="756" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614923512568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
